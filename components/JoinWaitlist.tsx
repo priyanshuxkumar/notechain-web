@@ -25,7 +25,6 @@ export default function JoinWaitlist({
     setError("");
     
     const result = EmailSchema.safeParse(email);
-    console.log('r',result)
     if (!result.success) {
       setError(result.error.errors[0].message);
       return;
@@ -46,7 +45,6 @@ export default function JoinWaitlist({
         setEmail("");
       }
     } catch (err) {
-      console.log('e',err)
       if(err instanceof Error) {
         setError(err.message);
       } else {
