@@ -36,10 +36,7 @@ export default function Hero() {
                 <span className="block text-blue-600">Study Materials</span>
               </h1>
               <p className="mt-6 text-lg text-gray-600 max-w-xl">
-                A <span className="font-bold">DARE</span> (Decentralized
-                Academic Resource Exchange) — exchange handwritten notes,
-                cheatsheets, and study guides with students from around the
-                world.{" "}
+              Trade handwritten notes, cheatsheets, and study guides with students around the world.{" "}
                 <span className="text-blue-600 font-bold">
                   Built on Solana.
                 </span>
